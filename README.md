@@ -56,7 +56,7 @@ A sleek, modern React application to view, search, sort, and paginate user comme
 4. Open in browser:
 
    \`\`\`
-   http://localhost:5432
+   http://localhost:5654
    \`\`\`
 
 ---
