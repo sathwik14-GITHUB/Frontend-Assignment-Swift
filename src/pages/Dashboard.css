@@ -1,0 +1,69 @@
+.dashboard {
+  background-color: #f5f7fa;
+  min-height: 100vh;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.dashboard-body {
+  max-width: 1200px;
+  margin: 20px auto;
+  padding:20px;
+}
+
+.dashboard-controls {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+  gap: 12px;
+}
+
+
+/* Sort button group */
+.sort-options {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+}
+
+.sort-options label {
+  font-weight: 500;
+  color: #333;
+}
+
+.sort-options button {
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  padding:8px;
+  font-size: 14px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.sort-options button:hover {
+  background-color: #f0f0f0;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .dashboard-controls {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .sort-options {
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  .sort-options button {
+    flex: 1 1 30%;
+  }
+
+  .dashboard-body{
+    margin: 0px;
+  }
+}
